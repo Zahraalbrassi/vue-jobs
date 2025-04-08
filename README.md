@@ -1,29 +1,30 @@
-# vue-jobs
+# Job Site Vue Project
 
-This template should help get you started developing with Vue 3 in Vite.
+This is a Vue.js project that includes a job site functionality.
 
-## Recommended IDE Setup
+## 🚀 How to Run
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+To run this project locally, follow these steps:
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
+### 1. Install Dependencies
+```bash
 npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
+### 2.Start the JSON Server
+npm run server
+### 3.Run the Vue Development Server
 npm run dev
-```
 
-### Compile and Minify for Production
+"dependencies": {
+  "axios": "^1.7.7",
+  "json-server": "^1.0.0-beta.2",
+  "primeicons": "^7.0.0",
+  "v-spinner": "^1.0.5",
+  "vue": "^3.4.29",
+  "vue-router": "^4.4.5",
+  "vue-spinner": "^1.0.4",
+  "vue-toastification": "^2.0.0-rc.5"
+}
+Notes
+Make sure db.json is present in your root directory for npm run server to work.
 
-```sh
-npm run build
-```
+Ensure that ports 3000 and 5173 are free or adjust the config if needed.
